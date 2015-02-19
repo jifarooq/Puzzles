@@ -1,4 +1,3 @@
-# after each digit, put +, * or nothing until number == 2002
 num = 123456789
 
 def print_sol(num, target, ops = [])
@@ -30,3 +29,11 @@ def compute_tokens(num, opers)
 end
 
 puts print_sol(num, 2015)
+
+
+# SOLUTIONS
+
+# 1*2-3+4*567*8/9
+# 12*3+45*6*7+89
+# 12*34*5-6*7+8+9
+
